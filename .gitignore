@@ -1,0 +1,32 @@
+# ── Regenerable dependencies (exclude these to save space) ──────────────────
+B/vendor/
+F/node_modules/
+B/node_modules/
+
+# ── Build artifacts ──────────────────────────────────────────────────────────
+F/dist/
+B/public/build/
+B/public/hot/
+B/public/storage/
+
+# ── Runtime / cache ──────────────────────────────────────────────────────────
+B/storage/pail/
+B/storage/*.key
+B/.phpunit.cache/
+B/.phpunit.result.cache
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+B/storage/logs/*.log
+
+# ── OS / Editor junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.sw?
+
+# ── IMPORTANT: Force-include .env files even if inner .gitignores exclude them
+!B/.env
+!F/.env
